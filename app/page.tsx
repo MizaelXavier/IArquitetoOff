@@ -27,8 +27,8 @@ export default function HomePage() {
           for everyone.
         </h1>
         <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-500 leading-7">
-          Take a picture of your room and see how your room looks in different
-          themes. 100% free – remodel your room today.
+          Tire uma foto do seu quarto e gere novas ideias de decoração
+          totalmente grátis!
         </h2>
         <Link
           className="bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
@@ -40,7 +40,7 @@ export default function HomePage() {
           <div className="flex flex-col space-y-10 mt-4 mb-16">
             <div className="flex sm:space-x-8 sm:flex-row flex-col">
               <div>
-                <h3 className="mb-1 font-medium text-lg">Original Room</h3>
+                <h3 className="mb-1 font-medium text-lg">Ambiente original</h3>
                 <Image
                   alt="Original photo of a room with roomGPT.io"
                   src="/original-pic.jpg"
@@ -50,7 +50,7 @@ export default function HomePage() {
                 />
               </div>
               <div className="sm:mt-0 mt-8">
-                <h3 className="mb-1 font-medium text-lg">Generated Room</h3>
+                <h3 className="mb-1 font-medium text-lg">Ambiente decorado</h3>
                 <Image
                   alt="Generated photo of a room with roomGPT.io"
                   width={400}
